@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Inter-sm;
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+body{
+  font-family: Inter-sm !important;
+}
+
+
+/* Navbar start */

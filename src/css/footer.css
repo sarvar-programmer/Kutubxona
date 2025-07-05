@@ -1,0 +1,89 @@
+footer{
+  background-color: #1E3A8A;
+}
+
+.msg_title{
+  width: 218px;
+  margin: 47px 1174px 10px 100px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+ 
+.msg_info{
+  width: 314px;
+  margin: 0 188px 54px 100px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.messengers{
+  width: 350px;
+  gap: 25px;
+  margin: 0px 152px 61px 100px;
+}
+.msg_icon{
+  width: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_wrapper {
+  gap: 25px;
+  display: flex;
+}
+
+.pages{
+  margin-left: 100px;
+  margin-right: 52px;
+}
+
+.pages p:first-child{
+  margin-top: 47px;
+}
+
+.pages p{
+  margin-top: 29px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  
+}
+
+.con_title{
+  margin-top: 47px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.con_icon{
+  width: 340px;
+  gap: 20px;
+  row-gap: 36px;
+}
+
+.icons{
+  width: 36px;
+  padding: 7.2px;
+  margin-bottom: 36px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.phone_sec{
+  margin-top: 0.4rem;
+}
+
+.email{
+  margin-top: 0.4rem;
+}
