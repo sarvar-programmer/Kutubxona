@@ -1,17 +1,26 @@
-import React from "react";
-import Home from "./home/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Books from "./books/Books";
+import Home from "./components/home/Home.js";
+import Books from "./components/books/Books.js";
+import Rahbariat from "./components/rahbariat/Rahbariat.js";
+export default function App() {
 
-export default class App extends React.Component{
-  render(){
-    return(
+    return (
       <>
-      <Home/>
-      <Books/>
+
+        <Router>
+          <Routes>
+            {/* <Route path="/" element={<Home/>} /> */}
+          </Routes>
+          <Routes>
+            {/* <Route path="/" element={<Books/>}/> */}
+          </Routes>
+          <Routes>
+            <Route path="/" element={<Rahbariat/>} ></Route>
+          </Routes>
+        </Router>
       </>
-      
+
     )
-   
+
   }
-}

@@ -1,14 +1,21 @@
+@font-face {
+  font-family: Inter-sm;
+  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+body{
+  font-family: Inter-sm !important;
+} 
+
 .contact{
-  padding-bottom: 44px;
+  margin-top: 45px;
+  margin-left: 100px;
+  gap: 22px;
 }
 
 .info_send{
   width: 577px;
   background: #1E3A8A;
   border-radius: 10px;
-  margin-left: 22px;
-
-
 }
 
 .send_info{

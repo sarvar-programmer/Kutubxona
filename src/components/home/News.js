@@ -1,17 +1,15 @@
-import React from "react";
-import tadbir from '../image/tadbir.png'
-import tadbir2 from '../image/tadbir2.png'
-import tadbir3 from '../image/tadbir3.png'
-import tadbir4 from '../image/tadbir4.png'
-import tadbir5 from '../image/tadbir5.png'
-import tadbir6 from '../image/tadbir6.png'
-import tadbir7 from '../image/tadbir7.png'
-import korgazma from '../image/korgazma.png'
-import '../css/news.css'
+import tadbir from '../../image/tadbir.png'
+import tadbir2 from '../../image/tadbir2.png'
+import tadbir3 from '../../image/tadbir3.png'
+import tadbir4 from '../../image/tadbir4.png'
+import tadbir5 from '../../image/tadbir5.png'
+import tadbir6 from '../../image/tadbir6.png'
+import tadbir7 from '../../image/tadbir7.png'
+import korgazma from '../../image/korgazma.png'
+import '../../css/home/news.css'
 
-export default class News extends React.Component {
+export default function News(){
 
-  render() {
     const cardData = [
       {
         img: tadbir,
@@ -73,4 +71,3 @@ export default class News extends React.Component {
       </>
     )
   }
-}

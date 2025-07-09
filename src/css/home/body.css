@@ -1,5 +1,13 @@
+@font-face {
+  font-family: Inter-sm;
+  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+body{
+  font-family: Inter-sm !important;
+} 
+
 .hero{
-  background-image: url('../image/kutubxon.png');
+  background-image: url('../../image/kutubxon.png');
   background-size: cover;
   background-position:  center;
   width: 100%;

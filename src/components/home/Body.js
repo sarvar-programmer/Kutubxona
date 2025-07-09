@@ -1,10 +1,9 @@
-import React from "react";
-import left from '../image/Vector.png'
-import right from '../image/Vector (1).png'
-import '../css/body.css'
+import left from '../../image/Vector.png'
+import right from '../../image/Vector (1).png'
+import '../../css/home/body.css'
 
-export default class Body extends React.Component {
-    render() {
+export default function Body(){
+
         return (
             <>
                 <section className="hero">
@@ -19,4 +18,3 @@ export default class Body extends React.Component {
             </>
         )
     }
-}

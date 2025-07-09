@@ -1,10 +1,7 @@
-import React from "react";
 import {  Col, Row, Button } from 'react-bootstrap';
-import '../css/contact.css'
+import '../../css/books/contact.css'
 
-export default class Contact extends React.Component{
-    render(){
-      
+export default function Contact(){
         return(
             <>
              <section className="contact">
@@ -31,4 +28,4 @@ export default class Contact extends React.Component{
             </>
         )
     }
-}
+

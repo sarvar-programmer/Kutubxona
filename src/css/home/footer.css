@@ -1,12 +1,20 @@
+@font-face {
+  font-family: Inter-sm;
+  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+body{
+  font-family: Inter-sm !important;
+} 
+
 footer{
   background-color: #1E3A8A;
 }
 
 .msg_title{
   width: 218px;
-  margin: 47px 1174px 10px 100px;
+  margin: 47px 1174px 25px 100px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 20px   ;
   line-height: 100%;
   letter-spacing: 0%;
 }
@@ -22,7 +30,7 @@ footer{
 .messengers{
   width: 350px;
   gap: 25px;
-  margin: 0px 152px 61px 100px;
+  margin: 0px 152px 54px 100px;
 }
 .msg_icon{
   width: 50px;
@@ -42,26 +50,26 @@ footer{
 .pages{
   margin-left: 100px;
   margin-right: 52px;
+  row-gap: 29px;
 }
 
 .pages p:first-child{
   margin-top: 47px;
 }
-
 .pages p{
   margin-top: 29px;
   font-weight: 400;
+  font-style: normal;
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
-  
 }
 
 .con_title{
   margin-top: 47px;
-  font-family: Inter;
+  margin-bottom: 1rem;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 24px !important;
   line-height: 18px;
   letter-spacing: 0%;
   vertical-align: middle;

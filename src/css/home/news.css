@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Inter-sm;
+  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+body{
+  font-family: Inter-sm !important;
+} 
+
 .info{
   margin-top: 100px;
   margin-bottom: 45px;

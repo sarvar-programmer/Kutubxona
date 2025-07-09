@@ -1,11 +1,10 @@
-import React from "react";
 import { FaInstagram, FaTelegramPlane, FaYoutube, FaFacebookF, FaHome, FaPhone, FaRegEnvelope } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { Col, Row } from 'react-bootstrap';
-import '../css/footer.css'
+import '../../css/home/footer.css'
 
-export default class Footer extends React.Component {
-    render() {
+export default function Footer(){
+  
         const icons = [FaInstagram, FaTelegramPlane, FaFacebookF, FaYoutube, RiTwitterXLine];
         const iconList = [];
         for (let i = 0; i < icons.length; i++) {
@@ -77,4 +76,3 @@ export default class Footer extends React.Component {
             </>
         )
     }
-}
