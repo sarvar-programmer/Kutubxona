@@ -102,10 +102,10 @@ export default function Body() {
     ];
     return (
         <>
-            <h1 className="text-center text-dark">Kitoblar</h1>
+            <p className="text-center text-dark">Kitoblar</p>
             <Row className="d-flex custom_gap">
           
-                    <InputGroup className='search'>
+                        <InputGroup className='search'>
                         <FormControl placeholder="Qidirish"/>
                         <InputGroup.Text>
                             <FaSearch />
@@ -134,9 +134,10 @@ export default function Body() {
             <Row className='library'>
                 {books.map((book, index) => (
                     <Col key={book.id} className='p-0 cards'>
-                        <div className="books ">
+                        <div className="books">
                             <div className="image-wrapper">
-                                <img src={book.image} className="image" alt="Kitob rasmi" />
+                                <img src={book.image} className="image" 
+                                     alt="Kitob rasmi"/>
                                 <Button className="like" variant="light" onClick={() => toggleLike(index)}>
                                     {likedItems[index] ? <FaHeart color="red" /> : <FaRegHeart />}
                                 </Button>

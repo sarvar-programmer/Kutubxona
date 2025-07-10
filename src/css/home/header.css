@@ -15,18 +15,16 @@ body {
   margin-left: 6.25rem !important;
 }
 
+.brand_logo {
+  width: 111.5px;
+  margin-top: 27px;
+}
+
 .brand_name {
-  width: 10px;
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-
-}
-
-.brand_logo {
-  width: 111.5px;
-  margin-top: 27px;
 }
 
 .nav_links {
@@ -38,40 +36,35 @@ body {
   letter-spacing: 0%;
 }
 
-.po{
-  width: 135px !important;
-}
-
-.about{
+.infos {
   border-radius: 5px 5px 0 0 !important;
 }
 
-.about .link {
+.infos .link {
   background-color: #1E3A8A;
   border: 1px solid #ffffff;
 }
 
-.about .link:first-child{
-  border: 5px 5px 0 0 !important;
+.infos .link:first-child {
+  border-radius: 5px 5px 0 0 !important;
 }
 
-.about .link:last-child{
-  border: 0 0 5px 5px !important;
+.infos .link:last-child {
+  border-radius: 0 0 5px 5px;
 }
 
-.about .dropdown-toggle {
+.infos .dropdown-toggle {
   display: flex;
   align-items: center;
 }
 
-.about .dropdown-toggle::after {
+.infos .dropdown-toggle::after {
   display: none !important;
 }
 
-.language {
+.languages {
   width: 212px;
   border: 1px solid #ffffff;
-  margin-top: 29px;
   border-radius: 10px;
   padding: 15.5px;
   margin-right: 30px;
@@ -90,6 +83,7 @@ body {
 }
 
 .flag {
+  width: 20px;
   margin-right: 10px;
 }
 
@@ -125,54 +119,23 @@ body {
   border-radius: 0 0 5px 5px !important;
 }
 
+.custom-nav-dropdown .custom-item img {
+  width: 20px;
+  height: 13px;
+}
+
 .user {
-  width: 60px;
+  width: 68px;
+ 
+  text-align: center;
   border: 1px solid white;
   border-radius: 10px;
   margin-top: 29px;
   margin-bottom: 30px;
   padding: 15px 15px;
+  margin-right: 6.25rem;
 }
 
- @media (max-width:1300px) {
-  .brand_name {
-    font-size: 14px !important;
-  }
-
-  .brand_logo {
-    width: 99px;
-  }
-
-  .nav_links {
-    font-size: 18px !important;
-  }
-
-
-  .language {
-    width: 100px !important;
-    font-size: 18px !important; 
-  }
-
-  .flag {
-    width: 25px;
-    height: 15px;
-  }
-
-  .lang {
-    font-size: 18px !important;
-  }
-
-  .custom-nav-dropdown .custom-item img {
-    width: 20px;
-    height: 13px;
-  }
-
-  .user {
-    width: 53px;
-  }
-
-  .icon {
-    width: 23px;
-    height: 23px;
-  }
-} 
+.icon {
+  font-size: 33px; 
+}

@@ -65,12 +65,12 @@ export default function Body() {
 
     return (
         <>
-            <h1 className="main_title">Rahbariat</h1>
+            <p className="main_title">Rahbariat</p>
            {employees.map((person, idx) => (
       <div key={idx}>
         <Row className="about_employe">
           <Col md={3}>
-            <img src={person.image} alt={person.name} className="image" />
+            <img src={person.image} alt={person.name} className="images" />
           </Col>
           <Col md={8}>
             <h3 className="d-flex employe">

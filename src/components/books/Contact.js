@@ -6,10 +6,10 @@ export default function Contact(){
             <>
              <section className="contact">
           <Row>
-            <Col md={6}>
+            <Col md={7}>
 
             </Col>
-            <Col md={6}>
+            <Col md={5}>
               <div className="info_send">
                 <p className="text-white  send_info">
                   Savollaringiz bo’lsa qoldiring

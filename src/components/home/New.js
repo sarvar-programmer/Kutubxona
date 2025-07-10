@@ -6,7 +6,7 @@ import tadbir5 from '../../image/tadbir5.png'
 import tadbir6 from '../../image/tadbir6.png'
 import tadbir7 from '../../image/tadbir7.png'
 import korgazma from '../../image/korgazma.png'
-import '../../css/home/news.css'
+import '../../css/home/new.css'
 
 export default function News(){
 
@@ -54,7 +54,7 @@ export default function News(){
     ];
     return (
       <>
-        <section className="news">
+        <section className="new">
           <p className="text-dark info">Yangiliklar</p>
           <div className="d-flex basic_card">
             <div className="d-flex car_two">

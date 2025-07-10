@@ -4,6 +4,7 @@ import Home from "./components/home/Home";
 import Books from "./components/books/Books";
 import Rahbariat from "./components/rahbariat/Rahbariat";
 import AKM from "./components/akm/AKM";
+import News from "./components/news/News";
 export default function App() {
 
     return (
@@ -20,7 +21,10 @@ export default function App() {
             {/* <Route path="/" element={<Rahbariat/>} ></Route> */}
           </Routes>
           <Routes>
-            <Route path="/" element={<AKM/>} ></Route>
+            {/* <Route path="/" element={<AKM/>} ></Route> */}
+          </Routes>
+          <Routes>
+            <Route path="/" element={<News/>} ></Route>
           </Routes>
         </Router>
       </>
