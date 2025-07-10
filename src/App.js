@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "./components/home/Home.js";
-import Books from "./components/books/Books.js";
-import Rahbariat from "./components/rahbariat/Rahbariat.js";
+import Home from "./components/home/Home";
+import Books from "./components/books/Books";
+import Rahbariat from "./components/rahbariat/Rahbariat";
+import AKM from "./components/akm/AKM";
 export default function App() {
 
     return (
@@ -16,7 +17,10 @@ export default function App() {
             {/* <Route path="/" element={<Books/>}/> */}
           </Routes>
           <Routes>
-            <Route path="/" element={<Rahbariat/>} ></Route>
+            {/* <Route path="/" element={<Rahbariat/>} ></Route> */}
+          </Routes>
+          <Routes>
+            <Route path="/" element={<AKM/>} ></Route>
           </Routes>
         </Router>
       </>
