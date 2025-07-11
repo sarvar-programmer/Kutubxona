@@ -102,7 +102,7 @@ export default function Body() {
     ];
     return (
         <>
-            <p className="text-center text-dark">Kitoblar</p>
+            <p className="text-center text-dark books_section">Kitoblar</p>
             <Row className="d-flex custom_gap">
           
                         <InputGroup className='search'>

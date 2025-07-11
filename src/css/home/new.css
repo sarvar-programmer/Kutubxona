@@ -6,6 +6,10 @@ body{
   font-family: Inter-sm !important;
 } 
 
+.new{
+  margin-bottom: 8.5rem;
+}
+
 .info{
   margin-top: 100px;
   margin-bottom: 45px;

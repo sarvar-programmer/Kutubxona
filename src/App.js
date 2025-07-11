@@ -1,34 +1,29 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./components/home/Home";
 import Books from "./components/books/Books";
 import Rahbariat from "./components/rahbariat/Rahbariat";
 import AKM from "./components/akm/AKM";
 import News from "./components/news/News";
+import Header from "./components/home/Header";
+import Footer from "./components/home/Footer";
+import Contact from "./components/home/Contact";
 export default function App() {
 
-    return (
-      <>
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/books" element={<Books />} />
+        <Route path="/akm" element={<AKM />} />
+        <Route path="/rahbariat" element={<Rahbariat />} />
+      </Routes>
+      <Contact/>
+      <Footer/>
+    </>
 
-        <Router>
-          <Routes>
-            {/* <Route path="/" element={<Home/>} /> */}
-          </Routes>
-          <Routes>
-            {/* <Route path="/" element={<Books/>}/> */}
-          </Routes>
-          <Routes>
-            {/* <Route path="/" element={<Rahbariat/>} ></Route> */}
-          </Routes>
-          <Routes>
-            {/* <Route path="/" element={<AKM/>} ></Route> */}
-          </Routes>
-          <Routes>
-            <Route path="/" element={<News/>} ></Route>
-          </Routes>
-        </Router>
-      </>
+  )
 
-    )
-
-  }
+}

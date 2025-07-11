@@ -67,7 +67,7 @@ export default function Body() {
         <>
             <p className="main_title">Rahbariat</p>
            {employees.map((person, idx) => (
-      <div key={idx}>
+      <div className="managment" key={idx}>
         <Row className="about_employe">
           <Col md={3}>
             <img src={person.image} alt={person.name} className="images" />

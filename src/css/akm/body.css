@@ -7,6 +7,10 @@ body {
     font-family: Inter-sm !important;
 }
 
+.location{
+    margin-bottom: 71px;
+}
+
 .organization_name{
     font-weight: 600;
     font-style: Bold;
@@ -15,6 +19,8 @@ body {
     letter-spacing: 0%;
     text-transform: uppercase;
     text-align: center !important;
+    margin-top: 6.25rem;
+    margin-bottom: 20px;
 }
 
 .akm {
