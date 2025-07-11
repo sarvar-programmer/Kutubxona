@@ -35,11 +35,11 @@ export default function Header() {
                         </Nav>
                         <div className="languages">
                             <NavDropdown title={<span className="lang"><img src={uzb} alt="uzb" className="text-white flag" />O'zbekcha<FaChevronDown className="text-white chevron" size={12}></FaChevronDown></span>} className="text-white custom-nav-dropdown" >
-                                <NavDropdown.Item onClick={() => setLang("uz")} href="#action/3.1" className="text-white custom-item"><img src={uzb}  />O'zbekcha</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setLang("uz")} href="#action/3.1" className="text-white custom-item"><img src={uzb}  alt="uzb"/>O'zbekcha</NavDropdown.Item>
                                 <NavDropdown.Item onClick={() => setLang("ru")} href="#action/3.2" className="text-white custom-item">
-                                    <img src={rus}/> Русский
+                                    <img src={rus} alt="rus"/> Русский
                                 </NavDropdown.Item>
-                                <NavDropdown.Item onClick={() => setLang("en")} href="#action/3.3" className="text-white custom-item"><img src={eng}
+                                <NavDropdown.Item onClick={() => setLang("en")} href="#action/3.3" className="text-white custom-item"><img src={eng} alt="eng"
                                 />English</NavDropdown.Item>
                             </NavDropdown>
                         </div>

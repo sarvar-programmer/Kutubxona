@@ -12,18 +12,18 @@ export default function Body() {
         <p className="organization_name">
             Tuproqqal’a tumani <br></br>  axborot kutubxona markazi haqida ma’lumot
         </p>
-        <img src={Akm} className="akm"/>
+        <img src={Akm} className="akm" alt="akm"/>
         <p className="activity">
             O'zbekiston Respublikasi Prezidentining 2019 yil 7 iyundagi O'zbekiston Respublikasi aholisiga Axborot-<br/>Kutubxona xizmat ko'rsatishni yanada takomillashtirish to'g'risidagi РQ-4З54-sоп qarori ча Xorazm viloyati      <br/>hokimining 12 iyundagi 2019 yildan 428-Q son qarori, Tuproqqal'a tumani hokimining 202З yil 12 maydagi<br/> 25-12-2/8-q/23-sonli qaroriga asosan, Tuman Axborot-kutubxona mаrkаzi 2O2З-уil 15 avgustdan tashkil<br/> etilib, o'z faoliyatini boshlagan.
         </p>
         <div className="libray_life">
               <div className="library_column"> 
-                <img src={Masullar}/>
-                <img src={Masullar2}/>
+                <img src={Masullar} alt="masullar"/>
+                <img src={Masullar2} alt="masullar2"/>
                 </div> 
                 <div className="library_column">
-                <img src={Kutubxona}/>
-                <img src={Kitoblar}/>
+                <img src={Kutubxona} alt="kutubxona"/>
+                <img src={Kitoblar} alt="kitoblar"/>
                 </div>
         </div> 
         <p className="info_library">
@@ -54,8 +54,8 @@ export default function Body() {
         </p>
         </div>
         <div className="room">
-            <img src={Xonasi}/>
-            <img src={Xonasi2}/>
+            <img src={Xonasi} alt="xonasi"/>
+            <img src={Xonasi2} alt="xonasi2"/>
         </div>
         </>
     )
