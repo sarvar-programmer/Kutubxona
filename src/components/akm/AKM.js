@@ -1,4 +1,4 @@
-import Akmr from "../../image/Akm.png"       
+import Akm from "../../image/Akm.png"       
 import Masullar from "../../image/Masullar.png"
 import Masullar2 from "../../image/Masullar2.png"
 import Kutubxona from "../../image/kutubxona ichi.png"
@@ -6,13 +6,13 @@ import Kitoblar from "../../image/kitoblar.png"
 import Xonasi from "../../image/xonasi.png"
 import Xonasi2 from "../../image/xonasi2.png"
 import "../../css/akm.css"
-export default function Akm() {
+export default function AKM() {
     return(
         <>
         <p className="organization_name">
             Tuproqqal’a tumani <br></br>  axborot kutubxona markazi haqida ma’lumot
         </p>
-        <img src={Akmr} className="akm" alt="akm"/>
+        <img src={Akm} className="akm" alt="akm"/>
         <p className="activity">
             O'zbekiston Respublikasi Prezidentining 2019 yil 7 iyundagi O'zbekiston Respublikasi aholisiga Axborot-<br/>Kutubxona xizmat ko'rsatishni yanada takomillashtirish to'g'risidagi РQ-4З54-sоп qarori ча Xorazm viloyati      <br/>hokimining 12 iyundagi 2019 yildan 428-Q son qarori, Tuproqqal'a tumani hokimining 202З yil 12 maydagi<br/> 25-12-2/8-q/23-sonli qaroriga asosan, Tuman Axborot-kutubxona mаrkаzi 2O2З-уil 15 avgustdan tashkil<br/> etilib, o'z faoliyatini boshlagan.
         </p>

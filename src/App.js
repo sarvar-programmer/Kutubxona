@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./components/home/Home";
 import Books from "./components/books/Books";
 import Rahbariat from "./components/rahbariat/Rahbariat";
-import Akm from "./components/akm/Akm";
+import AKM from "./components/akm/AKM";
 import News from "./components/news/News";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
         <Route path="/books" element={<Books />} />
-        <Route path="/akm" element={<Akm />} />
+        <Route path="/akm" element={<AKM />} />
         <Route path="/rahbariat" element={<Rahbariat />} />
       </Routes>
       <Contact/>
