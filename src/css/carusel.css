@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inter-sm;
-  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 body{
   font-family: Inter-sm !important;
@@ -17,17 +17,17 @@ body{
 }
 
 .slide1{
-  background-image: url("../../image/kutubxon.png");
+  background-image: url("../image/kutubxon.png");
 }
 
 .slide2{
-  background-image: url("../../image/Akm.png");
+  background-image: url("../image/Akm.png");
 }
  
 .sub_title{
   margin: 0 8.19rem 5.5rem 8.25rem;
   font-weight: 700;
-  font-size: 68px;
+  font-size: 48px;
   line-height: 100%;
   letter-spacing: 1%;
   text-shadow:
@@ -37,17 +37,18 @@ body{
   3px  3px 0 #098C81;
 }
 .layout{
-  margin-left: 40px;
-  padding-top: 20px;
+  margin-left: 3.8rem;
+  margin-right: 3.8rem !important;
 }
 
 .motto{
+  width: 740px;
   margin-left: 32px;
   margin-right: 468px;
   margin: 0 29.25rem 21.07rem 2rem;
   text-align: center;
   font-weight: 700;
-  font-size: 68px;
+  font-size: 48px;
   line-height: 100%;
   letter-spacing: 1%;
   text-align: start;
@@ -61,14 +62,8 @@ body{
 .left{
   margin-top: 10px;
   margin-right: 32px;
-  width: 20px;
-  height: 50px;
-
 }
 
 .right{
   margin-top: 10px;
-  margin-right: 40px;
-  width: 20px;
-  height: 50px; 
 }

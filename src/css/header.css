@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inter-sm;
-  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 .brand_logo {
-  width: 111.5px;
+  width: 6.97rem;
   margin-top: 27px;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .nav_links {
-  margin-left: 8em;
+  margin-left: 1.25em;
   gap: 20px;
   font-weight: 600;
   font-size: 24px;
@@ -36,8 +36,12 @@ body {
   letter-spacing: 0%;
 }
 
+.home{
+  width: 9.12rem;
+}
+
 .infos {
-  border-radius: 5px 5px 0 0 !important;
+  margin-right: 1.9rem;
 }
 
 .infos .link {
@@ -46,7 +50,7 @@ body {
 }
 
 .infos .link:first-child {
-  border-radius: 5px 5px 0 0 !important;
+  border-radius: 5px 5px 0 0;
 }
 
 .infos .link:last-child {
@@ -59,7 +63,7 @@ body {
 }
 
 .infos .dropdown-toggle::after {
-  display: none !important;
+  display: none;
 }
 
 .languages {
@@ -75,7 +79,7 @@ body {
 }
 
 .custom-nav-dropdown .dropdown-toggle::after {
-  display: none !important;
+  display: none;
 }
 
 .chevron {
@@ -83,8 +87,7 @@ body {
 }
 
 .flag {
-  width: 20px;
-  margin-right: 10px;
+  width: 30px;
 }
 
 .custom-nav-dropdown .dropdown-toggle {
@@ -108,25 +111,36 @@ body {
 }
 
 .dropdown-menu {
-  --bs-dropdown-padding-y: 0rem !important;
+  --bs-dropdown-padding-y: 0rem;
 }
 
 .custom-nav-dropdown .custom-item:first-child {
-  border-radius: 5px 5px 0 0 !important;
+  border-radius: 5px 5px 0 0;
 }
 
 .custom-nav-dropdown .custom-item:last-child {
-  border-radius: 0 0 5px 5px !important;
+  border-radius: 0 0 5px 5px;
 }
 
 .custom-nav-dropdown .custom-item img {
-  width: 20px;
-  height: 13px;
+  width: 30px;
+  height: 20px;
+}
+
+.custom-item{
+  font-size: 24px;
+}
+
+.national_flag{
+  margin-right: 1.25rem;
+}
+
+.rus_flag{
+  margin-right: 0.9rem;
 }
 
 .user {
   width: 68px;
- 
   text-align: center;
   border: 1px solid white;
   border-radius: 10px;

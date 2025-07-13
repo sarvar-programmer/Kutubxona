@@ -3,21 +3,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./components/home/Home";
 import Books from "./components/books/Books";
 import Rahbariat from "./components/rahbariat/Rahbariat";
-import AKM from "./components/akm/AKM";
+import Akm from "./components/akm/Akm";
 import News from "./components/news/News";
-import Header from "./components/home/Header";
-import Footer from "./components/home/Footer";
-import Contact from "./components/home/Contact";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
 export default function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
         <Route path="/books" element={<Books />} />
-        <Route path="/akm" element={<AKM />} />
+        <Route path="/akm" element={<Akm />} />
         <Route path="/rahbariat" element={<Rahbariat />} />
       </Routes>
       <Contact/>

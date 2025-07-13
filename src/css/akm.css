@@ -1,14 +1,10 @@
 @font-face {
     font-family: Inter-sm;
-    src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+    src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 
 body {
     font-family: Inter-sm !important;
-}
-
-.location{
-    margin-bottom: 71px;
 }
 
 .organization_name{
@@ -20,7 +16,7 @@ body {
     text-transform: uppercase;
     text-align: center !important;
     margin-top: 6.25rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .akm {
@@ -32,19 +28,19 @@ body {
     font-style: Medium;
     font-size: 24px;
     line-height: 100%;
-    letter-spacing: 3px !important;
+    letter-spacing: 0%;
     text-align: center;
-    margin: 1.875rem 6.25rem;
+    margin: 1.88rem 6.25rem;
+}
+
+.library_column{
+    margin-left: 6.25rem;
 }
 
 .library_column img {
-    width: 50rem;
+    width: 34.44rem;
     margin-right: 10px;
     margin-bottom: 20px;
-}
-
-.library_column img:nth-child(odd) {
-    margin-left: 7rem !important;
 }
 
 .info_library {
@@ -63,17 +59,18 @@ body {
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
-    margin-left: 7rem;
+    margin-left: 6.25rem;
 }
 
 .line{
-    border: 3px solid #00000033;
+    border: 5px solid #00000033;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .library_about{
     row-gap: 10px !important;
+    margin-left: 6.25rem;
 }
 
 .about_library{
@@ -82,19 +79,18 @@ font-style: Bold;
 font-size: 24px;
 line-height: 100%;
 letter-spacing: 0%;
-margin-left: 7rem;
 }
 
 .room{
     margin-bottom: 50px;
+    margin-left: 6.25rem;
 }
 
 .room img{
-    width: 52rem;
+    width: 38.44rem;
 }
 
 .room img:first-child{
-    margin-left: 7rem;
     margin-right: 10px;
 }
 

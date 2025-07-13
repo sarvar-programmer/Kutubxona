@@ -1,25 +1,29 @@
 @font-face {
   font-family: Inter-sm;
-  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
-body{
+
+body {
   font-family: Inter-sm !important;
-} 
-
-.contact{
-  margin-top: 45px;
-  margin-right: -7rem;
-  margin-bottom: 71px;
-  gap: 22px;
 }
 
-.info_send{
+.basic{
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+}
+
+.location {
+  padding-bottom: 4.44rem;
+}
+
+.information_input {
   width: 577px;
   background: #1E3A8A;
   border-radius: 10px;
+  margin-left: 22px;
 }
 
-.send_info{
+.information {
   width: 381px;
   padding-top: 20px !important;
   margin-left: 98px;
@@ -27,10 +31,10 @@ body{
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0%;
-  text-align: center; 
+  text-align: center;
 }
 
-.inf{
+.reference_point {
   width: 329px;
   margin: 10px 124px;
   font-weight: 600;
@@ -39,7 +43,7 @@ body{
   letter-spacing: 0%;
 }
 
-.name{
+.name_inp {
   width: 444px;
   height: 47px;
   margin: 10px 67px;
@@ -48,7 +52,7 @@ body{
   border: none;
 }
 
-.phone{
+.phone_inp {
   width: 444px;
   height: 47px;
   margin: 10px 67px;
@@ -57,7 +61,7 @@ body{
   border: none;
 }
 
-.question{
+.question_inp {
   width: 444px;
   height: 77px;
   margin: 10px 67px;
@@ -67,11 +71,10 @@ body{
 
 }
 
-.send{
+.send_btn {
   width: 444px;
   height: 47px;
   margin: 10px 67px 20px 66px;
-  
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;

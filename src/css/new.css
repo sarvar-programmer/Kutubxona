@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inter-sm;
-  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 body{
   font-family: Inter-sm !important;
@@ -23,12 +23,12 @@ body{
 }
 .basic_card{
   width: 90%;
-  margin-left: 105px;
+  margin-left: 6.57rem;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 92px;
   padding-left: 10px;
-  margin-left: 9rem;
+  margin-left: 6.57rem;
   padding-bottom: 33px !important;
 }
 .card_one{

@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import { FaInstagram, FaTelegramPlane, FaYoutube, FaFacebookF, FaHome, FaPhone, FaRegEnvelope } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { Col, Row } from 'react-bootstrap';
-import '../../css/home/footer.css'
+import '../../css/footer.css'
 
 export default function Footer(){
   
@@ -17,9 +18,7 @@ export default function Footer(){
         }
         return (
             <>
-
-                <footer>
-                    <Row>
+                    <Row className="footer">
                         <Col md={4}>
                             <p className="text-white msg_title">Tuproqqal’a TAKM</p>
                             <p className=" text-white msg_info">
@@ -31,19 +30,19 @@ export default function Footer(){
                                 </div>
                             </div>
                         </Col>
-                        <Col md={2} className="text-white pages">
-                            <p>
-                                Bosh sahifa
-                            </p>
-                            <p>
+                        <Col md={2} className="text-white  pages">
+                                <Link className="links_footer" to="/">
+                                    Bosh sahifa
+                                </Link>
+                            <Link className="links_footer" to="/news">
                                 Yangiliklar
-                            </p>
-                            <p>
+                            </Link>
+                            <Link className="links_footer" to="/books">
                                 Kitoblar
-                            </p>
-                            <p>
+                            </Link>
+                            <Link className="links_footer" to="/akm">
                                 Biz haqimizda
-                            </p>
+                            </Link>
                         </Col>
                         <Col md={3} className=" text-white connection">
                             <p className="con_title">
@@ -51,13 +50,13 @@ export default function Footer(){
                             </p>
                             <div className="d-flex con_icon">
                                 <div className="icons">
-                                    <FaHome size={21} />
+                                    <FaHome className='fahome'/>
                                 </div>
-                                <p>Xorazm viloyati, Tuproqqal'a tumani, Pitnak, Mustaqillik ko'chasi, 1-uy</p>
+                                <p className='adres_lib'>Xorazm viloyati, Tuproqqal'a tumani, Pitnak, Mustaqillik ko'chasi, 1-uy</p>
                             </div>
                             <div className="d-flex con_icon">
                                 <div className="icons">
-                                    <FaPhone size={21} />
+                                    <FaPhone className='faphone'/>
                                 </div>
                                 <p className="phone_sec">
                                     +998 77 317 14 05
@@ -65,14 +64,12 @@ export default function Footer(){
                             </div>
                             <div className="d-flex con_icon">
                                 <div className="icons">
-                                    <FaRegEnvelope size={21} />
+                                    <FaRegEnvelope className='envelope'/>
                                 </div>
                                 <p className="email">tuproqqalatumaniaxborotkutubxo@gmail.com</p>
                             </div>
                         </Col>
                     </Row>
-
-                </footer>
             </>
         )
     }

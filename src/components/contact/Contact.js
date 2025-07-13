@@ -1,15 +1,15 @@
 import {  Col, Row, Button } from 'react-bootstrap';
-import '../../css/home/contact.css'
+import '../../css/contact.css'
 
 export default function Contact(){
         return(
             <>
              <div className="location">
-          <Row>
+          <Row className='basic'>
             <Col md={7} className="library_location">
 
             </Col>
-            <Col md={5}>
+            <Col md={5} className='right_part'>
               <div className="information_input">
                 <p className="text-white  information">
                   Savollaringiz bo’lsa qoldiring

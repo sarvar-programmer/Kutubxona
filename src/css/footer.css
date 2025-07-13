@@ -1,12 +1,12 @@
 @font-face {
   font-family: Inter-sm;
-  src: url("../../font/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
 body{
   font-family: Inter-sm !important;
 } 
 
-footer{
+.footer{
   background-color: #1E3A8A;
 }
 
@@ -50,13 +50,15 @@ footer{
 .pages{
   margin-left: 100px;
   margin-right: 52px;
-  row-gap: 29px;
 }
 
-.pages p:first-child{
+.links_footer:first-child{
   margin-top: 47px;
 }
-.pages p{
+.links_footer {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
   margin-top: 29px;
   font-weight: 400;
   font-style: normal;
@@ -67,7 +69,7 @@ footer{
 
 .con_title{
   margin-top: 47px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.75rem;
   font-weight: 400;
   font-size: 24px !important;
   line-height: 18px;
@@ -83,15 +85,37 @@ footer{
 
 .icons{
   width: 36px;
-  padding: 7.2px;
+  height: 36px;
   margin-bottom: 36px;
   border: 1px solid #ffffff;
   border-radius: 10px;
 }
+
+
+
+.fahome{
+  width: 20px;
+  margin: 9px 8px ;
+}
+
+.adres_lib{
+  margin-top: -6px;
+}
+
+.faphone{
+  width: 16px;
+  margin: 10px;
+}
+
 .phone_sec{
-  margin-top: 0.4rem;
+  margin-top: 5px;
+}
+
+.envelope{
+  width: 18px;
+  margin: 10px 9px;
 }
 
 .email{
-  margin-top: 0.4rem;
+  margin-top: 5px;
 }

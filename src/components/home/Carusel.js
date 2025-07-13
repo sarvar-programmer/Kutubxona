@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import left from '../../image/Vector.png'
 import right from '../../image/Vector (1).png'
 import { Carousel } from 'react-bootstrap';
-import '../../css/home/carusel.css'
+import '../../css/carusel.css'
 
 export default function Carusel() {
   const [index, setIndex] = useState(0);
