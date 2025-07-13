@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Form, InputGroup, FormControl, Row, Col, Button } from 'react-bootstrap';
+import { FaSearch, FaHeart, FaRegHeart } from "react-icons/fa";
 import Kitob1 from '../../image/kitob1.png'
 import Kitob2 from '../../image/kitob2.png'
 import Kitob3 from '../../image/kitob3.png'
 import '../../css/books.css'
-import { FaSearch, FaHeart, FaRegHeart } from "react-icons/fa";
 export default function Books() {
 
     const [likedItems, setLikedItems] = useState(Array(12).fill(false));

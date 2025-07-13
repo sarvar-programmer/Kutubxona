@@ -44,6 +44,7 @@ body {
   margin: 2.19rem 6.56rem 2.56rem 6.56rem;
   gap: 10px;
   row-gap: 20px; 
+  width: 1240px;
 }
 
 .cards{
