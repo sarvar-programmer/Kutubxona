@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./components/home/Home";
-import Books from "./components/books/Books";
+import Books from "./components/";
 import Rahbariat from "./components/rahbariat/Rahbariat";
 import AKM from "./components/akm/AKM";
 import News from "./components/news/News";
