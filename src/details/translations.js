@@ -4,7 +4,7 @@ export const translations = {
     district:"Tuproqqal’a tumani",
     center:"Axborot kutubxona",
     name:"markazi",
-    home: "Bosh sahifa",
+    home: "Bosh\u00A0sahifa",
     news: "Yangiliklar",
     books: "Kitoblar",
     info: "Ma'lumot",
