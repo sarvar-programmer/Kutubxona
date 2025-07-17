@@ -15,13 +15,14 @@ export default function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/books" element={<Books />} />
-        <Route path="/akm" element={<AKM />} />
-        <Route path="/rahbariat" element={<Rahbariat />} />
+        {/* <Route path="/news" element={<News />} /> */}
+        {/* <Route path="/books" element={<Books />} /> */}
+        {/* <Route path="/akm" element={<AKM />} /> */}
+        {/* <Route path="/rahbariat" element={<Rahbariat />} /> */}
       </Routes>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
+     
     </>
 
   )

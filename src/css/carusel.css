@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
   font-family: Inter-sm;
   src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
-body{
+ body{
   font-family: Inter-sm !important;
 } 
 
@@ -11,9 +11,9 @@ body{
   background-position: center;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 90%;
+  padding-top: 18.07rem;
   height: 135vh;
-  padding-top: 21rem;
 }
 
 .slide1{
@@ -25,7 +25,7 @@ body{
 }
  
 .sub_title{
-  margin: 0 8.19rem 5.5rem 8.25rem;
+  margin-left: 5.75rem;
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;
@@ -36,34 +36,26 @@ body{
   -3px  3px 0 #098C81,
   3px  3px 0 #098C81;
 }
+
 .layout{
-  margin-left: 3.8rem;
-  margin-right: 3.8rem !important;
+  padding-left: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .motto{
-  width: 740px;
   margin-left: 32px;
-  margin-right: 468px;
-  margin: 0 29.25rem 21.07rem 2rem;
   text-align: center;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;   
   line-height: 100%;
   letter-spacing: 1%;
-  text-align: start;
   text-shadow:
   -3px -3px 0 #098C81,
   3px -3px 0 #098C81,
   -3px  3px 0 #098C81,
   3px  3px 0 #098C81;
 }
-
-.left{
-  margin-top: 10px;
-  margin-right: 32px;
-}
-
+ 
 .right{
-  margin-top: 10px;
-}
+  margin-left: 35rem;
+} */

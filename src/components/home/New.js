@@ -55,18 +55,19 @@ export default function New(){
     return (
       <>
         <div className="new">
-          <p className="text-dark info">Yangiliklar</p>
+          {/* <p className="text-dark info">Yangiliklar</p> */}
+           {/*shoti ozida scrol bovoti */}
           <div className="d-flex basic_card">
             <div className="d-flex car_two">
-              {cardData.map((item, index) => (
+              {/* {cardData.map((item, index) => (
                 <div className="card_one" key={index}>
                   <img src={item.img} className="card-img" alt="Tadbir rasmi" />
-                  <p className="text-dark topic">{item.text}</p>
+                 <p className="text-dark topic">{item.text}</p>
                   <p className=" text-dark date">{item.date}</p>
                 </div>
-              ))}
+              ))} */}
             </div>
-          </div>
+          </div> 
         </div>
       </>
     )

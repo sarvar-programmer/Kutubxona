@@ -29,10 +29,10 @@ export default function Carusel() {
           <div className="hero slide1">
             <h1 className="text-white sub_title">Tuproqqal’a tumani axborot kutubxona markazi</h1>
 
-            <div className="d-flex align-items-start layout">
+            <div className="d-flex  align-items-start layout">
               <img src={left} className="left" alt="left" />
               <p className="text-white motto">
-                Kitob – bizning kuchimiz,<br /> kelajagimiz poydevori!
+                Kitob – bizning kuchimiz,<br/> kelajagimiz poydevori!
               </p>
               <img src={right} className="right" alt="right" onClick={goNext} />
             </div>
@@ -46,7 +46,7 @@ export default function Carusel() {
             <div className="d-flex align-items-start layout">
               <img src={left} className="left" alt="left" onClick={goPrev} />
               <p className="text-white motto">
-                Kitob – bizning kuchimiz, kelajagimiz poydevori!
+                Kitob – bizning kuchimiz,<br/> kelajagimiz poydevori!
               </p>
               <img src={right} className="right" alt="right" onClick={goNext} />
             </div>
