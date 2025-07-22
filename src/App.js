@@ -7,7 +7,6 @@ import AKM from "./components/akm/AKM";
 import News from "./components/news/News";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-// import Contact from "./components/contact/Contact";
 export default function App() {
 
   return (
