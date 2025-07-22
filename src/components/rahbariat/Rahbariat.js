@@ -1,7 +1,7 @@
 import Director from "../../image/direktor.png"
 import Aktrahbari from "../../image/aktrahbari.png"
 import "../../css/rahbariat.css"
-import { Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 export default function Rahbariat() {
     const employees = [
   {
@@ -65,6 +65,7 @@ export default function Rahbariat() {
 
     return (
         <>
+        <Container>
             <p className="main_title">Rahbariat</p>
            {employees.map((person, idx) => (
       <div className="managment" key={idx}>
@@ -97,6 +98,7 @@ export default function Rahbariat() {
         {idx !== employees.length - 1 && <div className="line"></div>}
       </div>
     ))}
+    </Container>
         </>
     )
 }

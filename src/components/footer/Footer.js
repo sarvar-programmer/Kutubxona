@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FaInstagram, FaTelegramPlane, FaYoutube, FaFacebookF, FaHome, FaPhone, FaRegEnvelope } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
-import { Col, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import '../../css/footer.css'
 
 export default function Footer(){
@@ -18,8 +18,9 @@ export default function Footer(){
         }
         return (
             <>
-                    <Row className="footer">
-                        <Col md={4}>
+              <Container fluid className="footer">
+                    <Row >
+                        <Col md={5} className='border_box'>
                             <p className="text-white msg_title">Tuproqqal’a TAKM</p>
                             <p className=" text-white msg_info">
                                 Kutubxonada ko`plab nodir va noyob adabiyotlar saqlanib kelinmoqda. Bizda elektron kitoblar ham mavjud. Ijtmoiy kanalarmiz orqali murojat qilishlaringgiz mumkin
@@ -30,7 +31,7 @@ export default function Footer(){
                                 </div>
                             </div>
                         </Col>
-                        <Col md={2} className="text-white  pages">
+                        <Col md={2} className="text-white  pages border_box">
                                 <Link className="links_footer" to="/">
                                     Bosh sahifa
                                 </Link>
@@ -44,7 +45,7 @@ export default function Footer(){
                                 Biz haqimizda
                             </Link>
                         </Col>
-                        <Col md={3} className=" text-white connection">
+                        <Col md={5} className=" text-white connection border_box">
                             <p className="con_title">
                                 Biz bilan bog’laning
                             </p>
@@ -70,6 +71,7 @@ export default function Footer(){
                             </div>
                         </Col>
                     </Row>
+                    </Container>
             </>
         )
     }

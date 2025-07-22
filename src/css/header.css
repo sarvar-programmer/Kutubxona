@@ -12,32 +12,27 @@ body {
 }
 
 .custom {
-  margin-left: 6.25rem !important;
+  margin-left: 3%;
 }
 
 .brand_logo {
-  width: 6.97rem;
   margin-top: 27px;
 }
 
 .brand_name {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.12em;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .nav_links {
   margin-left: 1.25em;
-  gap: 20px;
+  gap: 15px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.34em;
   line-height: 100%;
-  letter-spacing: 0%;
-}
-
-.home{
-  width: 9.12rem;
+  letter-spacing: 0;
 }
 
 .infos {
@@ -67,11 +62,10 @@ body {
 }
 
 .languages {
-  width: 212px;
   border: 1px solid #ffffff;
   border-radius: 10px;
-  padding: 15.5px;
-  margin-right: 30px;
+  padding: 15px;
+  margin-right: 20px;
 }
 
 .custom-nav-dropdown {
@@ -128,7 +122,7 @@ body {
 }
 
 .custom-item{
-  font-size: 24px;
+  font-size: 1.34em;
 }
 
 .national_flag{
@@ -140,16 +134,15 @@ body {
 }
 
 .user {
-  width: 68px;
-  text-align: center;
+  width: 3.75em;
   border: 1px solid white;
   border-radius: 10px;
   margin-top: 29px;
   margin-bottom: 30px;
-  padding: 15px 15px;
-  margin-right: 6.25rem;
+  padding: 1em 0 1.07em 1em;
 }
 
 .icon {
-  font-size: 33px; 
+  margin-right: 5px;
+  font-size: 1.88em; 
 }

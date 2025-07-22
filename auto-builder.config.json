@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDir": "dist",
+  "server": {
+    "host": "your_server_ip",
+    "port": 22,
+    "username": "your_server_username",
+    "privateKey": "C:/Users/user/.ssh/id_rsa",
+    "remoteDir": "/var/www/your_project"
+  }
+}

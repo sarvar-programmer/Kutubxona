@@ -1,17 +1,18 @@
+import { Container } from 'react-bootstrap';
 import Sayohat1 from "../../image/sayohat1.png"
 import Sayohat2 from "../../image/sayohat2.png"
 import "../../css/news.css"
 
 export default function News() {
     return(
-        <>
+        <> <Container>
           <p className="news">
             Yangiliklar
           </p>
           <p className="library_trip">
-            “Kitob olamiga sayohat” nomi ostida kutubxonaga sayohat tashkil<br/> etildi.
+            “Kitob olamiga sayohat” nomi ostida kutubxonaga sayohat tashkil <br/>etildi.
           </p>
-          <div className="trip_img">
+          <div className="d-flex trip_img">
             <img src={Sayohat1} className="img_trip" alt="sayohat1"/>
             <img src={Sayohat2} className="img_trip" alt="sayohat2"/>
           </div>
@@ -21,6 +22,7 @@ export default function News() {
           <p className="info_date">
             25.06.2025
           </p>
+          </Container>
         </>
     )
 }

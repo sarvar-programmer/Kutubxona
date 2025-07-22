@@ -1,3 +1,4 @@
+import { Container } from 'react-bootstrap';
 import tadbir from '../../image/tadbir.png'
 import tadbir2 from '../../image/tadbir2.png'
 import tadbir3 from '../../image/tadbir3.png'
@@ -54,7 +55,7 @@ export default function New(){
     ];
     return (
       <>
-        <div className="new">
+        <Container className="new">
           <p className="text-dark info">Yangiliklar</p>
           <div className="d-flex basic_card">
             <div className="d-flex car_two">
@@ -67,7 +68,7 @@ export default function New(){
               ))}
             </div>
           </div>
-        </div>
+        </Container>
       </>
     )
   }

@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family: Inter-sm;
     src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
@@ -10,9 +10,9 @@ body {
 .organization_name{
     font-weight: 600;
     font-style: Bold;
-    font-size: 48px;
+    font-size: 2.67em;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-transform: uppercase;
     text-align: center !important;
     margin-top: 6.25rem;
@@ -23,32 +23,39 @@ body {
     width: 100%;
 }
 
+.box {
+    margin-top: 1.88rem;
+    margin-bottom: 1.88rem;
+}
+
 .activity {
     font-weight: 500;
     font-style: Medium;
-    font-size: 24px;
+    font-size: 1.34em;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
-    margin: 1.88rem 6.25rem;
+    margin-bottom: 0;
 }
 
 .library_column{
-    margin-left: 6.25rem;
+    /* margin-left: 6.25rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8%
 }
 
 .library_column img {
-    width: 34.44rem;
-    margin-right: 10px;
+    width: 49.6%;
     margin-bottom: 20px;
 }
 
 .info_library {
     font-weight: 600;
     font-style: Bold;
-    font-size: 24px;
+    font-size: 1.34em;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
     margin-top: 10px;
 }
@@ -56,42 +63,41 @@ body {
 .library_section {
     font-weight: 400;
     font-style: Medium;
-    font-size: 24px;
+    font-size: 1.34em;
     line-height: 100%;
-    letter-spacing: 0%;
-    margin-left: 6.25rem;
+    letter-spacing: 0;
+    /* margin-left: 6.25rem; */
 }
 
 .line{
     border: 5px solid #00000033;
-    margin-top: 30px;
+    margin: 0;
     margin-bottom: 30px;
 }
 
 .library_about{
     row-gap: 10px !important;
-    margin-left: 6.25rem;
+    margin-bottom: 30px;
 }
 
 .about_library{
 font-weight: 600;
 font-style: Bold;
-font-size: 24px;
+font-size: 1.34em;
 line-height: 100%;
-letter-spacing: 0%;
+letter-spacing: 0;
 }
 
 .room{
     margin-bottom: 50px;
-    margin-left: 6.25rem;
-    width: 1241px;
+    /* margin-left: 6.25rem; */
 }
 
 .room img{
-    width: 38.44rem;
+    width: 49.6%;
 }
 
 .room img:first-child{
-    margin-right: 10px;
-}
+    margin-right: 0.8%;
+}   
 

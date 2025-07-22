@@ -7,44 +7,54 @@ body {
   font-family: Inter-sm !important;
 }
 
-.basic{
-  margin-left: 6.25rem;
-  margin-right: 6.25rem;
-}
-
 .location {
   padding-bottom: 4.44rem;
+  /* justify-content: center; */
+  
+}
+
+.basic{
+  align-items: center;
+  gap: 1.77%;
+  padding-left: 0;
+}
+
+.library_location{
+  padding: 0;
+  width: 56%;
+}
+
+.right_part {
+  padding: 0;
+  width: 40%;
 }
 
 .information_input {
-  width: 577px;
+  width: 99%;
   background: #1E3A8A;
   border-radius: 10px;
-  margin-left: 22px;
 }
 
 .information {
-  width: 381px;
+  text-align: center;
   padding-top: 20px !important;
-  margin-left: 98px;
   font-weight: 600;
   font-size: 40px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
 }
 
 .reference_point {
-  width: 329px;
-  margin: 10px 124px;
+  text-align: center;
   font-weight: 600;
   font-size: 28px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .name_inp {
-  width: 444px;
+  width: 77%;
   height: 47px;
   margin: 10px 67px;
   padding-left: 20px;
@@ -53,7 +63,7 @@ body {
 }
 
 .phone_inp {
-  width: 444px;
+  width: 77%;
   height: 47px;
   margin: 10px 67px;
   padding-left: 20px;
@@ -62,7 +72,7 @@ body {
 }
 
 .question_inp {
-  width: 444px;
+  width: 77%;
   height: 77px;
   margin: 10px 67px;
   padding-left: 20px;
@@ -72,12 +82,12 @@ body {
 }
 
 .send_btn {
-  width: 444px;
+  width: 77%;
   height: 47px;
   margin: 10px 67px 20px 66px;
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
 }
