@@ -11,20 +11,11 @@ body {
   background-color: #1E3A8A;
 }
 
-.custom {
-<<<<<<< HEAD
-  /* margin-left: 6.25rem !important; */
-  /* padding: 27px 100px 20px 100px; */
-}
-
 .brand_logo {
-  /* width: 6.97rem; */
-=======
   margin-left: 3%;
 }
 
 .brand_logo {
->>>>>>> fix-rahbariat
   margin-top: 27px;
 }
 
@@ -41,11 +32,8 @@ body {
   font-weight: 600;
   font-size: 1.34em;
   line-height: 100%;
-<<<<<<< HEAD
   letter-spacing: 0%;
-=======
   letter-spacing: 0;
->>>>>>> fix-rahbariat
 }
 
 .infos {
@@ -75,10 +63,6 @@ body {
 }
 
 .languages {
-<<<<<<< HEAD
-  /* width: 212px; */
-=======
->>>>>>> fix-rahbariat
   border: 1px solid #ffffff;
   border-radius: 10px;
   padding: 15px;
@@ -156,12 +140,8 @@ body {
   border-radius: 10px;
   margin-top: 29px;
   margin-bottom: 30px;
-<<<<<<< HEAD
   padding: 15px 15px;
-  /* margin-right: 6.25rem; */
-=======
   padding: 1em 0 1.07em 1em;
->>>>>>> fix-rahbariat
 }
 
 .icon {

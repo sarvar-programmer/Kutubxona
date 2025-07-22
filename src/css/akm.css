@@ -39,7 +39,6 @@ body {
 }
 
 .library_column{
-    /* margin-left: 6.25rem; */
     display: flex;
     flex-wrap: wrap;
     gap: 0.8%
@@ -66,7 +65,6 @@ body {
     font-size: 1.34em;
     line-height: 100%;
     letter-spacing: 0;
-    /* margin-left: 6.25rem; */
 }
 
 .line{
@@ -90,7 +88,6 @@ letter-spacing: 0;
 
 .room{
     margin-bottom: 50px;
-    /* margin-left: 6.25rem; */
 }
 
 .room img{

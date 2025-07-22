@@ -53,14 +53,10 @@ body{
   display: flex;
 }
 
-.pages{
-  /* margin-left: 100px; */
-  /* margin-right: 52px; */
-}
-
 .links_footer:first-child{
   margin-top: 47px;
 }
+
 .links_footer {
   display: block;
   text-decoration: none;
