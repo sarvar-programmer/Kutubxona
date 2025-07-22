@@ -16,7 +16,7 @@ export default function Header() {
     return (
         <>
             <Navbar className="navbar">
-                <Container fluid className="custom">
+                <Container className="custom">
                     <img src={logo}
                         className="d-inline-block align-top brand_logo"
                         alt="Library Logo" />

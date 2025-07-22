@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Inter-sm;
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+  font-family: Inter-sm !important;
+}
+
+.location {
+  padding-bottom: 4.44rem;
+  /* justify-content: center; */
+  
+}
+
+.basic{
+  align-items: center;
+  gap: 1.77%;
+  padding-left: 0;
+}
+
+.library_location{
+  padding: 0;
+  width: 56%;
+}
+
+.right_part {
+  padding: 0;
+  width: 40%;
+}
+
+.information_input {
+  width: 99%;
+  background: #1E3A8A;
+  border-radius: 10px;
+}
+
+.information {
+  text-align: center;
+  padding-top: 20px !important;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.reference_point {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.name_inp {
+  width: 77%;
+  height: 47px;
+  margin: 10px 67px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.phone_inp {
+  width: 77%;
+  height: 47px;
+  margin: 10px 67px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.question_inp {
+  width: 77%;
+  height: 77px;
+  margin: 10px 67px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.send_btn {
+  width: 77%;
+  height: 47px;
+  margin: 10px 67px 20px 66px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+}

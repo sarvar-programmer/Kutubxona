@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Inter-sm;
+    src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+    font-family: Inter-sm !important;
+}
+
+.news {
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 2.85em;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.library_trip {
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 2.14em;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin-left: 5%;
+    margin-top: 1.25rem;
+    margin-bottom: 1.88rem;
+    align-items: center;
+}
+
+.trip_img{
+    box-sizing: border-box !important;
+    gap: 0.83%;
+    justify-content: center;
+}
+
+.img_trip {
+    margin-bottom: 3.19rem;
+    width: 45%;
+}
+
+.travel { 
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 1.9em;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin-left: 4.5%;
+    align-items: center;
+    width: 97%;
+}
+
+.info_date {
+    margin: 2.5rem 0 3.75rem 0;
+    text-align: end;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.9em;
+    line-height: 100%;
+    letter-spacing: 0;
+}
