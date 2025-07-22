@@ -1,7 +1,7 @@
+import { Container, Row, Col } from "react-bootstrap"
 import Director from "../../image/direktor.png"
 import Aktrahbari from "../../image/aktrahbari.png"
 import "../../css/rahbariat.css"
-import { Container, Row, Col } from "react-bootstrap"
 export default function Rahbariat() {
     const employees = [
   {
