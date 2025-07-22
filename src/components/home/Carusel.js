@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import left from '../../image/Vector.png'
 import right from '../../image/Vector (1).png'
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Container } from 'react-bootstrap';
 import '../../css/carusel.css'
 
 export default function Carusel() {
@@ -27,20 +27,23 @@ export default function Carusel() {
         interval={5000}>
         <Carousel.Item>
           <div className="hero slide1">
+            <Container className='cont_carousel'>
             <h1 className="text-white sub_title">Tuproqqal’a tumani axborot kutubxona markazi</h1>
 
             <div className="d-flex  align-items-start layout">
               <img src={left} className="left" alt="left" />
               <p className="text-white motto">
-                Kitob – bizning kuchimiz,<br/> kelajagimiz poydevori!
+                Kitob – bizning kuchimiz, kelajagimiz poydevori!
               </p>
               <img src={right} className="right" alt="right" onClick={goNext} />
             </div>
+            </Container>
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <div className="hero slide2">
+            <Container className='cont_carousel'>
             <h1 className="text-white sub_title">Tuproqqal’a tumani axborot kutubxona markazi</h1>
 
             <div className="d-flex align-items-start layout">
@@ -50,6 +53,7 @@ export default function Carusel() {
               </p>
               <img src={right} className="right" alt="right" onClick={goNext} />
             </div>
+            </Container>
           </div>
         </Carousel.Item>
       </Carousel>

@@ -11,8 +11,10 @@ body {
   background-color: #1E3A8A;
 }
 
-.brand_logo {
-  margin-left: 3%;
+.custom{
+  --bs-gutter-x: 0;
+  margin-left: 4em;
+  margin-right: 0;
 }
 
 .brand_logo {
@@ -24,16 +26,23 @@ body {
   font-size: 1.12em;
   line-height: 100%;
   letter-spacing: 0;
+  margin-right: 0;
 }
 
 .nav_links {
-  margin-left: 1.25em;
+  margin-left: 1.2em;
   gap: 15px;
   font-weight: 600;
-  font-size: 1.34em;
+  font-size: 1.5em;
   line-height: 100%;
   letter-spacing: 0%;
   letter-spacing: 0;
+  padding: 0;
+}
+
+.nav-link{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .infos {
@@ -70,7 +79,7 @@ body {
 }
 
 .custom-nav-dropdown {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .custom-nav-dropdown .dropdown-toggle::after {
@@ -82,7 +91,7 @@ body {
 }
 
 .flag {
-  width: 30px;
+  width: 1.88em;
 }
 
 .custom-nav-dropdown .dropdown-toggle {
@@ -106,7 +115,7 @@ body {
 }
 
 .dropdown-menu {
-  --bs-dropdown-padding-y: 0rem;
+  --bs-dropdown-padding-y: 0;
 }
 
 .custom-nav-dropdown .custom-item:first-child {
@@ -118,12 +127,12 @@ body {
 }
 
 .custom-nav-dropdown .custom-item img {
-  width: 30px;
-  height: 20px;
+  width: 1.88em;
+  height: 1.25em;
 }
 
 .custom-item{
-  font-size: 1.34em;
+  font-size: 1.5em;
 }
 
 .national_flag{
