@@ -6,6 +6,7 @@ import Rahbariat from "./components/rahbariat/Rahbariat";
 import AKM from "./components/akm/AKM";
 import News from "./components/news/News";
 import Header from "./components/header/Header";
+import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer";
 export default function App() {
 
@@ -19,7 +20,7 @@ export default function App() {
         <Route path="/akm" element={<AKM />} />
         <Route path="/rahbariat" element={<Rahbariat />} />
       </Routes>
-      {/* <Contact/> */}
+      <Contact/>
       <Footer/>
      
     </>
